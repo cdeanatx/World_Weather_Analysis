@@ -18,10 +18,10 @@ Cities retrieved using CityPy are then passed to the OpenWeatherMap API (https:/
 
 User enters the upper and lower bound of their preferred temperature range. The DataFrame generated using the retrieved weather data is then filtered by user's preferences. Lat-Lon pairs for filtered cities are then passed to Google Maps API to retrieve lodging for each city and return a map with markers. User picks destinations.
 
-![destinations] (https://github.com/cdeanatx/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png)
+![destinations](https://github.com/cdeanatx/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png)
 
 ### 4. Google Directions
 
 Once user chooses vacation destinations, Google API is leveraged to provide directions to each location using user's preferred method of travel (driving, bicycling, walking).
 
-![directions] (https://github.com/cdeanatx/World_Weather_Analysis/blob/main/Vacation_Itenerary/WeatherPy_travel_map.png)
+![directions](https://github.com/cdeanatx/World_Weather_Analysis/blob/main/Vacation_Itenerary/WeatherPy_travel_map.png)
